@@ -49,15 +49,15 @@ var email = {
 };
 
 // Write code that logs your email object to the terminal.
-console.log(JSON.stringify(email));
+console.log(email);
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.keys(email));
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(email));
 
 
 // -------------------
