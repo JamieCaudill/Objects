@@ -40,8 +40,16 @@ console.log(Object.keys(foods));
 // Declare a variable that stores an object. Each key should be an attribute of an email and each
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
 
-// Write code that logs your email object to the terminal.
+var email = {
+  subject: "Hilarious Cats!",
+  sender: "Mom",
+  body: "Check out these hilarious cats!",
+  attachments: 8,
+  opened: true
+};
 
+// Write code that logs your email object to the terminal.
+console.log(JSON.stringify(email));
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
