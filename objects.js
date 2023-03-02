@@ -108,3 +108,29 @@ var posts = ["image at beach", "holiday party", "adorable puppy", "video of cute
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+var inbox = [
+  {
+    subject: "Hilarious Cats!",
+    sender: "Mom",
+    body: "Check out these hilarious cats!",
+    attachments: 8,
+    opened: true
+  },
+  {
+    subject: "Buy more stuff!",
+    sender: "Capitalism",
+    body: "You really need this stuff!",
+    attachments: 1000,
+    opened: false
+  },
+  {
+    subject: "Have you ever tried rubbing motor oil on your face?!",
+    sender: "Cosmopolitan",
+    body: "It'll make you glow like a 1967 Ford Pinto!",
+    attachments: 4,
+    opened: true
+  }
+];
+
+console.log(inbox);
